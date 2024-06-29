@@ -1,0 +1,27 @@
+.custom-button {
+    margin-top: 20px; /* Adjust as needed */
+    background-color: #006bdf;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    height: 45px;
+    width: 180px;
+  }
+
+  .custom-button:hover {
+    background-color: 	#004080;
+    color: whitesmoke;
+    border: none;
+  }
+
+  .container-backgrrr {
+    background-image: url('../../assets/sky.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: auto; /* Adjust the height as needed */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    padding-bottom: 50px;
+  }
+
+  

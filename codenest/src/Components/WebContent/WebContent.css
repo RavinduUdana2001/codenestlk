@@ -1,0 +1,8 @@
+.container-bg {
+    background-image: url('../../assets/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust the height as needed */
+    
+  }
+  

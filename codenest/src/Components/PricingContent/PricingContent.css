@@ -1,0 +1,60 @@
+.pricing-content {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0;
+}
+
+.pricing-card {
+    background-color: #fff; /* White background for cards */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px); /* Move the card up slightly on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.pricing-card h3 {
+    color: #333; /* Dark text color */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff6b6b; /* Red price color */
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+    color: #555; /* Medium dark text color */
+    font-size: 18px;
+}
+
+.pricing-card Button {
+    margin-top: 20px;
+    background-color: #ffa94d; /* Orange button background color */
+    border: none;
+    color: #fff; /* White button text color */
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for buttons */
+}
+
+.pricing-card Button:hover {
+    background-color: #ff7e00; /* Darker orange on hover */
+    transform: translateY(-2px); /* Move button up slightly on hover */
+}

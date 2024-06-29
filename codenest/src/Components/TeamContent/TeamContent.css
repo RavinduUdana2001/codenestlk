@@ -1,0 +1,33 @@
+.team-card {
+    margin-bottom: 30px; /* Add space between cards */
+  }
+  
+  .team-card .mx-auto {
+    background-color: #f8f9fa; /* Card background color */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .team-card .mx-auto:hover {
+    transform: translateY(-5px); /* Add hover effect */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-card img {
+    border-radius: 50%; /* Make image circular */
+  }
+  
+  .team-card h5 {
+    color: #2c3e50; /* Name color */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .team-card p {
+    color: #34495e; /* Role color */
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  

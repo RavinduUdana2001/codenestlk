@@ -1,0 +1,41 @@
+/* PrivacyPolicy.css */
+
+/* Privacy Policy section styles */
+.privacy-policy-section {
+    padding: 50px 0; /* Add padding for spacing */
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px; /* Limit width of content */
+    margin: 0 auto; /* Center align content horizontally */
+  }
+  
+  /* Section title styles */
+  .section-title {
+    font-size: 2rem; /* Adjust title font size */
+    font-weight: bold; /* Title font weight */
+    color: #333; /* Title color */
+    text-align: center; /* Center align title */
+    margin-bottom: 30px; /* Add spacing below title */
+  }
+  
+  /* Privacy policy content styles */
+  .privacy-policy-content {
+    font-size: 1.2rem; /* Adjust content font size */
+    color: #666; /* Content color */
+    line-height: 1.6; /* Adjust line height for readability */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    .section-title {
+      font-size: 1.8rem;
+    }
+    .privacy-policy-content {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+/* FixedGif.css */
+
+/* WhatsApp icon styles */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 120px; /* Initial width */
+    height: auto;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect */
+  .whatsapp-icon:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* Adjust icon size for smaller screens */
+    .whatsapp-icon {
+      width: 90px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Further adjust icon size for extra small screens */
+    .whatsapp-icon {
+      width: 90px;
+    }
+  }
+  

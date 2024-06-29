@@ -1,0 +1,6 @@
+.container-back {
+    background-image: url('../../assets/back.png');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust the height as needed */
+  }

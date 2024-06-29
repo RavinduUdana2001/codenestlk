@@ -1,0 +1,16 @@
+.background-image {
+    background-image: url('../../assets/piccc.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 700px; /* Custom height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .content {
+    text-align: center;
+    color: black; /* Text color */
+  }
+  

@@ -1,0 +1,48 @@
+.testimonial-section {
+    background-color: #f5f5f5; /* Background color for the testimonial section */
+    padding: 50px 0; /* Add padding for better spacing */
+  }
+  
+  .testimonial-section .header {
+    color: #333; /* Header text color */
+    margin-bottom: 40px; /* Add space below the header */
+  }
+  
+  .testimonial-section .card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 30px; /* Add margin between cards */
+    padding: 20px;
+    
+  }
+  
+  .testimonial-section .card img {
+    border-radius: 50%; /* Make the profile images circular */
+    width: 200px; /* Adjust image width */
+    height: 200px; /* Adjust image height */
+    object-fit: cover; /* Ensure the image covers the entire space */
+  }
+  
+  .testimonial-section .card h3 {
+    color: #007bff; /* Client name color */
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-section .card h6 {
+    color: #6c757d; /* Role color */
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-section .card p {
+    color: #555; /* Testimonial text color */
+    font-size: 14px;
+  }
+  
+  /* Alternate background color for even numbered cards */
+  .testimonial-section .card:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  

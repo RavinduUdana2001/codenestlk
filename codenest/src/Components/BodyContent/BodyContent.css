@@ -1,0 +1,14 @@
+.custom-button {
+    margin-top: 20px; /* Adjust as needed */
+    background-color: #006bdf;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    height: 45px;
+    width: 180px;
+  }
+
+  .custom-button:hover {
+    background-color: black;
+    color: white;
+  }

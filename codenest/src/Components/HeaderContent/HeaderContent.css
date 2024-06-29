@@ -1,0 +1,48 @@
+/* Menu item styling */
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black; /* Set the default text color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Underline effect for menu items */
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 3px; /* Adjust the height of the underline */
+    background-color: transparent; /* Set the default underline color */
+    transition: width 0.3s ease;
+  }
+  /* Add this CSS to hide social media icons on small screens */
+@media (max-width: 992px) {
+  .social-icon-link {
+    display: none;
+  }
+}
+
+/* Add this CSS to align the logo to the left */
+.navbar-brand {
+  margin-right: auto; /* Add this to push the logo to the left */
+}
+
+  
+  /* Hover effect for menu items */
+  .nav-link:hover::before {
+    width: 100%; /* Expand the width of the underline on hover */
+    background-color: #4B61C8; /* Set the underline color on hover */
+  }
+  
+  /* Change color of icons on hover */
+  .social-icon-link:hover .social-icon {
+    color: #4B61C8; /* Change color of icons to blue on hover */
+  }
+  
+  /* Remove underline from icons */
+  .social-icon-link::before {
+    content: none;
+  }
+  

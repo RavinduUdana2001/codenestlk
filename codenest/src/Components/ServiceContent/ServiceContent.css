@@ -1,0 +1,7 @@
+.container-bg2
+{
+    background-image: url('../../assets/pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust the height as needed */
+  }

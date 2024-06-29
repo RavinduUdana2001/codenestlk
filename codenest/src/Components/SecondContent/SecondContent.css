@@ -1,0 +1,7 @@
+.container-background {
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  height: auto; /* Adjust the height as needed */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}

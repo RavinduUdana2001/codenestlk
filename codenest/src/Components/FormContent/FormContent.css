@@ -1,0 +1,82 @@
+/* FormContent.css */
+
+/* Form container */
+.form-content {
+    background-color: #fafaff; /* Light gray background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px; /* Padding around the form */
+    
+}
+
+/* Heading styles */
+.form-content h1 {
+    font-size: 2.6rem; /* Heading font size */
+    font-weight: bold; /* Heading font weight */
+    color: #333; /* Heading color */
+    text-align: center; /* Center align heading */
+    margin-bottom: 30px; /* Add some space below the heading */
+}
+
+/* Form styles */
+.form-content form {
+    width: 100%; /* Form width */
+    max-width: 600px; /* Limit the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #e8e8ff; /* White background for the form */
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px; /* Padding inside the form */
+    
+    
+}
+
+/* Input and textarea styles */
+.form-content input,
+.form-content textarea {
+    width: 100%; /* Set input and textarea width to 100% */
+    color: #333; /* Text color */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 12px; /* Padding inside input fields */
+    margin-bottom: 20px; /* Add space between input fields */
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease; /* Smooth transition for input focus */
+}
+
+/* Placeholder text color */
+.form-content input::placeholder,
+.form-content textarea::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+/* Input focus styles */
+.form-content input:focus,
+.form-content textarea:focus {
+    border-color: #55a3e0; /* Border color on focus */
+}
+
+/* Button styles */
+.form-content button {
+    background-color: #625ae7; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 12px 24px; /* Padding inside the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    display: block; /* Make button a block element for full width */
+    margin: 0 auto 20px; /* Center align button with bottom margin */
+}
+
+/* Button hover effect */
+.form-content button:hover {
+    background-color: #4f4a93; /* Lighter button background color on hover */
+}
+
+/* Error message */
+.form-content .text-danger {
+    color: #ff4d4f; /* Error message text color */
+    font-size: 14px; /* Error message font size */
+    margin-top: -10px; /* Adjust top margin */
+    margin-bottom: 20px; /* Adjust bottom margin */
+    text-align: center; /* Center align error message */
+}

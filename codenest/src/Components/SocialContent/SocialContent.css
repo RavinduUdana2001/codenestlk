@@ -1,0 +1,80 @@
+/* Custom styles for social content */
+
+/* Social column */
+.social-column {
+    text-align: center;
+
+     /* Add margin between columns */
+  }
+  
+/* Social image */
+.social-image {
+    width: 100px; /* Adjust image width */
+    height: 100px; /* Adjust image height */
+    border-radius: 50%; /* Make the image circular */
+    background-color: #fff; /* Add background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 15px; /* Add margin below image */
+}
+
+/* Social header */
+.social-header {
+    color: #4B61C8; /* Header text color */
+    font-size: 18px; /* Header font size */
+    margin-bottom: 10px; /* Add margin below header */
+}
+
+/* Social description */
+.social-description {
+    color: #777; /* Description text color */
+    font-size: 14px; /* Description font size */
+}
+
+/* Contact column */
+.contact-column {
+    background-color: #edf0f9; /* Background color for contact details */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Contact header */
+.contact-header {
+    color: #333; /* Header text color */
+    font-size: 24px; /* Adjust font size */
+    /* Add space below the header */
+}
+
+/* Contact info */
+.contact-info {
+    color: #555; /* Text color for contact info */
+    font-size: 18px; /* Adjust font size */
+
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Contact icon */
+.contact-icon {
+    margin-right: 10px; /* Add space between icon and text */
+    color: #15100a; /* Icon color */
+    
+}
+
+/* Contact button */
+.contact-button {
+    background-color: #4B61C8; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 18px; /* Button text size */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.contact-button:hover {
+    background-color: #304A9B; /* Change button background color on hover */
+}
+.contact-details {
+    text-align: center; /* Align items in the center */
+    justify-content: center;
+  }
+  
